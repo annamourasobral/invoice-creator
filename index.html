@@ -5,36 +5,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Invoice Creator</title>
 </head>
 
 <body>
-    <div class="title wrapper">
-        <p id="heading">Invoice creator</p>
-        <p id="supporting-text">Thanks for choosing GoodCorp, LLC</p>
+    <div id="app-wrapper">
+        <div id="title-wrapper">
+            <p id="head">Invoice creator</p>
+            <p id="supporting-text">Thanks for choosing GoodCorp, LLC</p>
+        </div>
+        <div id="buttons">
+            <button class="btn" id="wash-car">Wash Car: $10</button>
+            <button class="btn" id="mow-lown">Mow Lown: $20</button>
+            <button class="btn" id="pull-weeds">Pull Weeds: $30</button>
+        </div>
+        <div class="head" id="tasks-head">
+            <p id="tasks-title">TASK</p>
+            <p id="tasks-total">TOTAL</p>
+        </div>        
+        <span id="notes-division"></span>
+        <div id="tasks-list"></div>
+        <div id="tasks-amt"></div>
+        <div class="head" id="notes-head">
+            <p id="notes-title">NOTES</p>
+            <p id="notes-total-amt">TOTAL AMOUNT</p>
+        </div>
+        <div id="notes-list"></div>
+        <div id="total-amt">$0</div>
+        <button id="send"><span class="material-symbols-outlined" style="font-size: 16px; padding-right: 16px;">mail</span>Send Invoice</button>
     </div>
-    <div class="app wrapper">
-        <div class="buttons">
-            <button id="wash-car">Wash Car</button>
-            <button id="mow-lown">Mow Lown</button>
-            <button id="pull-weeds">Pull Weeds</button>
-        </div>
-        <div class="task body-app">
-            <div id="task-head">
-                <p id="task-title">Task</p>
-                <p id="task-">Total</p>total
-            </div>
-        </div>
-        <div class="notes body-app">
-            <div id="notes-head">
-                <p id="notes-title"></p>
-                <p id="notes-total-amt"></p>
-            </div>
-            <p id="total-amt"></p>
-        </div>
-        <button id="send">Send Invoice</button>
     </div>
-
     <link src="script.js">
 </body>
 
