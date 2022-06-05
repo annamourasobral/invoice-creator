@@ -66,38 +66,67 @@ body {
     color: #918E9B;
 }
 
-#tasks-head {
-    font-size: 12px;
+table {
+    margin: 30px;
+    width: 460px;
+    box-sizing: border-box;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+.hard-gray {
     font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    color: #918E9B;
 }
 
-#tasks-title {
-    margin-right: 415px;
-}
-
-#notes-division {
-    width: 471px;
-    margin-top: 40px 0 10px 0;
-    height: 0;
-    border: 1px solid #C3C6DB;
-}
-
-#notes-head {
+.light-gray {
     font-size: 12px;
     font-weight: 600;
-}
-
-#notes-title {
-    margin-right: 345px;
-}
-
-#total-amt {
-    font-size: 36px;
-    align-self: flex-end;
-    margin-right: 40px;
-    font-weight: 600;
+    line-height: 32px;
     color: #918E9B;
-    margin-bottom: 60px;
+}
+
+tfoot {
+    border-top: 1px solid #C3C6DB;
+}
+
+
+.service {
+    font-size: 20px;
+    font-weight: 700;
+    color: #4A4E74;
+    padding: 12px 0;
+}
+
+.dolar-sign {
+    font-size: 24px;
+    font-weight: 300;
+    color:#918E9B;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: 500;
+    color: #4A4E74;
+}
+
+.remove {
+    font-size: 8px;
+    font-weight: 400;
+    color: #918E9B;
+}
+
+.note {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.outcome {
+    font-size: 36px;
+    font-weight: 600;
+    color: #4A4E74;
 }
 
 #send {

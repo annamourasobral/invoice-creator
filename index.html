@@ -18,26 +18,31 @@
         </div>
         <div id="buttons">
             <button class="btn" id="wash-car">Wash Car: $10</button>
-            <button class="btn" id="mow-lown">Mow Lown: $20</button>
+            <button class="btn" id="mow-lawn">Mow Lawn: $20</button>
             <button class="btn" id="pull-weeds">Pull Weeds: $30</button>
         </div>
-        <div class="head" id="tasks-head">
-            <p id="tasks-title">TASK</p>
-            <p id="tasks-total">TOTAL</p>
-        </div>        
-        <span id="notes-division"></span>
-        <div id="tasks-list"></div>
-        <div id="tasks-amt"></div>
-        <div class="head" id="notes-head">
-            <p id="notes-title">NOTES</p>
-            <p id="notes-total-amt">TOTAL AMOUNT</p>
-        </div>
-        <div id="notes-list"></div>
-        <div id="total-amt">$0</div>
-        <button id="send"><span class="material-symbols-outlined" style="font-size: 16px; padding-right: 16px;">mail</span>Send Invoice</button>
+        <table>
+            <thead>
+                <tr>
+                    <th class="hard-gray">TASK</th>
+                    <th class="hard-gray" align="right">TOTAL</th>
+                </tr>
+            </thead>
+            
+            <tbody id="purchased-services"></tbody>
+            
+            <tfoot>
+                <tr>
+                    <td class="light-gray">NOTES</td>
+                    <td  class="light-gray"align="right">TOTAL AMOUNT</td>
+                </tr>
+                <tr class="outcome"></tr>
+            </tfoot>
+        </table>
+        <button class="invoice" id="send"><span class="material-symbols-outlined" style="font-size: 16px; padding-right: 16px;">mail</span>Send Invoice</button>
     </div>
     </div>
-    <link src="script.js">
+    <script src="script.js"></script>
 </body>
 
 </html>
